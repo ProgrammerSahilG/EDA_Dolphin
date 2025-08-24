@@ -26,7 +26,7 @@ pip install EDA_Dolphin
 # Using conda
 conda install EDA_Dolphin
 
-
+---
 ### `check_missing(df)`
 
 Check missing values in a pandas DataFrame.
