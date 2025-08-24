@@ -21,7 +21,7 @@ You can install dependencies via `pip` or `conda`:
 
 ```bash
 # Using pip
-pip install pandas matplotlib seaborn
+pip install EDA_Dolphin
 
 # Using conda
-conda install pandas matplotlib seaborn
+conda install EDA_Dolphin
