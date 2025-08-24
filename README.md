@@ -25,3 +25,29 @@ pip install EDA_Dolphin
 
 # Using conda
 conda install EDA_Dolphin
+
+
+### `check_missing(df)`
+
+Check missing values in a pandas DataFrame.
+
+**Parameters:**
+- `df` (`pandas.DataFrame`): Input dataset
+
+**Returns:**
+- `pandas.Series`: Count of missing values for each column
+
+**Example:**
+
+```python
+import pandas as pd
+from eda_dolphin import check_missing
+
+data = {
+    "A": [1, 2, None, 4],
+    "B": [None, 2, 3, 4]
+}
+
+df = pd.DataFrame(data)
+
+print(check_missing(df))

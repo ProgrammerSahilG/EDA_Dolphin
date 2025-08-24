@@ -16,7 +16,8 @@ list_of_files = [
     f"src/{project_name}/components/stats.py",
     f"src/{project_name}/components/visualizer.py",
     f"src/{project_name}/utils/__init__.py",
-    f"src/{project_name}/utils/helpers.py"
+    f"src/{project_name}/utils/helpers.py",
+     "requirements.txt"
 ]
 
 # Create folders and files
